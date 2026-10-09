@@ -11,7 +11,8 @@ Specifically, it uses city.name in place of an ID. This leads to an updated city
 `Add Edmonto, Update Edmonto to Edmnton, Update Edmnton to Edmonton -> 2 Documents (Edmonto with a city name of Edmnton & Edmnton with a city name of Edmonton)`  
 Deleting Edmnton would instead delete the document Edmnton here, i.e. the city displayed as Edmonton
 
-This branch largely fixes this bug by messing with an ID. Notably however, updating a city and new adding a new city with the old name will still instead update the first city to its original name. Some null checks have also been lost, though as far as I can tell isn't affecting anything.
+This branch largely fixes this bug by messing with an ID. Notably however, updating a city and new adding a new city with the old name will still instead update the first city to its original name. Some null checks have also been lost, though as far as I can tell isn't affecting anything.  
+**This also alters the same firestore as the main branch, so running main after fix will cause issues**
 
 ## References and Resources
 
