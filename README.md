@@ -14,6 +14,7 @@ Deleting Edmnton would instead delete the document Edmnton here, i.e. the city d
 This bug is part of the lab code and fixing it would require simple but noticeable edits to code outside of the scope of my assignment
 It would also result in the firebase data being different from expected for any graders
 Seeing as this is a course that emphasizes groupwork, encapsulation, etc, I believe it is more in line with this assignment to not alter the code of others
+**A branch has been added with most of the bug fixed. Delete works with no bugs on the branch**
 
 ## References and Resources
 
